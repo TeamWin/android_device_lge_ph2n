@@ -29,14 +29,6 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     charger_res_images
 
-# Fstab
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab
-
-# Kernel
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/recovery/kernel:kernel
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ph2n
 PRODUCT_NAME := full_ph2n
